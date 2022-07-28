@@ -1,0 +1,47 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: wheat;
+}
+body {
+  background-color: rgb(16, 16, 16);
+}
+p {
+  text-decoration: underline yellowgreen;
+}
+div p {
+  text-decoration: none;
+}
+span {
+  font-weight: bold;
+  color: blueviolet;
+}
+.especial,
+div > p {
+  color: darkmagenta;
+}
+#unico {
+  color: cyan;
+}
+p ~ p {
+  text-transform: uppercase;
+}
+.boton {
+  color: whitesmoke;
+  font-weight: lighter;
+  background-color: red;
+  border-radius: 10px;
+}
+.boton:hover {
+  background-color: darkred;
+  font-weight: bolder;
+  cursor: pointer;
+  border-color: whitesmoke;
+}
+.boton:active {
+  background-color: navy;
+}
+#unico-boton {
+  display: flex;
+  justify-content: center;
+}
